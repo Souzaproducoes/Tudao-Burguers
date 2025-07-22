@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudão Burguer's 3.0 - A Evolução do Sabor</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Peça os melhores hambúrgueres artesanais de Santa Tereza de Goiás. Ingredientes frescos, delivery rápido e uma experiência gourmet inesquecível.">
+    <meta name="keywords" content="hambúrguer artesanal, delivery, Santa Tereza, Goiás, burger gourmet, tudão burguers, lanchonete, comida, lanche">
+    <meta name="author" content="Tudão Burguer's">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tudão Burguer's 3.0 - O Sabor que te Conquista!">
+    <meta property="og:description" content="Hambúrgueres artesanais gourmet com ingredientes frescos e sustentáveis. Delivery em Santa Tereza de Goiás. Peça agora!">
+    <meta property="og:image" content="https://souzaproducoes.github.io/Tudao-Burguers/imagens/og-image.png">
+    <meta property="og:url" content="https://souzaproducoes.github.io/Tudao-Burguers/">
+    <meta property="og:site_name" content="Tudão Burguer's">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tudão Burguer's 3.0 - O Sabor que te Conquista!">
+    <meta name="twitter:description" content="O melhor hambúrguer artesanal de Santa Tereza de Goiás, com delivery rápido.">
+    <meta name="twitter:image" content="https://souzaproducoes.github.io/Tudao-Burguers/imagens/og-image.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2e7d32">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="estilo.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Tudão Burguer's",
+        "image": "https://souzaproducoes.github.io/Tudao-Burguers/imagens/og-image.png",
+        "description": "Hambúrgueres artesanais gourmet com ingredientes frescos e sustentáveis em Santa Tereza de Goiás.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avenida Bernardo Sayão, Centro",
+            "addressLocality": "Santa Tereza de Goiás",
+            "addressRegion": "GO",
+            "addressCountry": "BR"
+        },
+        "telephone": "+5562991265804",
+        "url": "https://souzaproducoes.github.io/Tudao-Burguers/",
+        "hasMenu": "https://souzaproducoes.github.io/Tudao-Burguers/#menu",
+        "openingHours": "Mo-Su 18:00-23:00",
+        "priceRange": "$$",
+        "servesCuisine": "Hambúrguer Artesanal",
+        "hasDeliveryService": true
+    }
+    </script>
+</head>
+<body>
+    <a href="#main" class="sr-only">Pular para o conteúdo principal</a>
+    
+    <header class="header" role="banner">
+        <div class="header__container">
+            <a href="#home" class="logo" aria-label="Tudão Burguer's - Página inicial">
+                <img src="imagens/logo.png" alt="Logo Tudão Burguer's" loading="lazy">
+                <span>Tudão Burguer's</span>
+            </a>
+            
+            <nav class="nav" role="navigation" aria-label="Menu principal">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active" aria-current="page">Home</a></li>
+                    <li><a href="#offer" class="nav__link">Oferta</a></li>
+                    <li><a href="#about" class="nav__link">Sobre</a></li>
+                    <li><a href="#menu" class="nav__link">Cardápio</a></li>
+                    <li><a href="#testimonials" class="nav__link">Depoimentos</a></li>
+                    <li><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <button class="mobile-menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">
+                <span class="mobile-menu-toggle__bar"></span>
+                <span class="mobile-menu-toggle__bar"></span>
+                <span class="mobile-menu-toggle__bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main" role="main">
+        <section id="home" class="hero" role="banner" aria-labelledby="hero-title">
+            <div class="hero__overlay"></div>
+            <div class="hero__content">
+                <h1 id="hero-title" class="hero__title">Sabor Gourmet com Consciência</h1>
+                <p class="hero__subtitle">O melhor burger artesanal da região, feito para você.</p>
+                <a href="#menu" class="cta-button" aria-label="Ver nosso cardápio completo">
+                    Ver Cardápio
+                </a>
+            </div>
+        </section>
+
+        <section id="offer" class="section section--offer fade-in" aria-labelledby="offer-title">
+            <h2 id="offer-title" class="section__title section__title--alt">🔥 Oferta da Semana 🔥</h2>
+            <div class="offer__content">
+                <div class="offer__image-container">
+                    <img src="imagens/combo.webp" alt="Combo Imperdível: Hambúrguer, Fritas e Refri" loading="lazy" class="offer__image">
+                </div>
+                <div class="offer__text-content">
+                    <h3 class="offer__name">Combo Imperdível</h3>
+                    <p class="offer__description">
+                        Seu desejo realizado! Nosso campeão de vendas, o Tudão Especial, com uma porção generosa de fritas sequinhas e um refri gelado. A combinação perfeita para matar sua fome com muito sabor!
+                    </p>
+                    <div id="countdown" class="countdown">
+                        <span>A OFERTA TERMINA EM:</span>
+                        <div class="countdown__timer">
+                            <div class="countdown__block"><span id="days">0</span><span>Dias</span></div>
+                            <div class="countdown__block"><span id="hours">0</span><span>Horas</span></div>
+                            <div class="countdown__block"><span id="minutes">0</span><span>Min</span></div>
+                            <div class="countdown__block"><span id="seconds">0</span><span>Seg</span></div>
+                        </div>
+                    </div>
+                    <div class="offer__pricing">
+                        <span class="offer__old-price">De R$ 40,00</span>
+                        <span class="offer__new-price">Por apenas R$ 34,90</span>
+                    </div>
+                    <button class="cta-button offer__button" data-name="Combo da Semana" data-price="34.90" data-img="imagens/combo.webp" aria-label="Adicionar Combo da Semana ao carrinho por R$34,90">
+                        Pegar Minha Oferta Agora!
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section fade-in" aria-labelledby="about-title">
+            <h2 id="about-title" class="section__title">Nossa História</h2>
+            <div class="about__content">
+                <div class="about__text-content">
+                    <p class="about__text">
+                        Nascemos há mais de 2 anos de um sonho e uma chapa quente. A paixão por hambúrgueres de verdade nos move a buscar, todos os dias, os ingredientes mais frescos e de produtores locais. Cada burger que sai da nossa cozinha conta uma história de dedicação, sabor e respeito por você e pelo nosso planeta.
+                    </p>
+                    <div class="values__grid">
+                        <div class="value__item">
+                            <img src="imagens/icon-quality.svg" alt="Ícone de qualidade" class="value__icon">
+                            <h3>Ingredientes Premium</h3>
+                            <p>Carnes selecionadas e produtos sempre frescos de fornecedores locais.</p>
+                        </div>
+                        <div class="value__item">
+                            <img src="imagens/icon-eco.svg" alt="Ícone de sustentabilidade" class="value__icon">
+                            <h3>Embalagens Ecológicas</h3>
+                            <p>Cuidamos do sabor e do planeta, com embalagens sustentáveis e recicláveis.</p>
+                        </div>
+                        <div class="value__item">
+                            <img src="imagens/icon-service.svg" alt="Ícone de atendimento" class="value__icon">
+                            <h3>Atendimento que Encanta</h3>
+                            <p>Nossa maior alegria é ver seu sorriso. Um atendimento rápido e amigável.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image-container">
+                    <img src="imagens/about-us.webp" alt="Equipe Tudão Burguer's preparando hambúrgueres artesanais com um sorriso" loading="lazy" class="about__image">
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="section section--alt fade-in" aria-labelledby="menu-title">
+            <h2 id="menu-title" class="section__title">Nosso Cardápio</h2>
+            <div class="menu__grid" role="region" aria-label="Itens do cardápio">
+                
+                <article class="menu__item" data-category="hamburgers">
+                    <div class="menu__item-image-wrapper">
+                        <div class="menu__item-badge">🔥 O MAIS PEDIDO</div>
+                        <img src="imagens/tudao-especial.webp" alt="Tudão Especial - Hambúrguer com pão brioche e blend bovino suculento" loading="lazy" class="menu__item-image">
+                    </div>
+                    <div class="menu__item-content">
+                        <h3 class="menu__item-title">Tudão Especial</h3>
+                        <p class="menu__item-description">A estrela da casa! Pão brioche selado na manteiga, suculento blend bovino de 150g, queijo cheddar derretido, fatias de bacon crocante, nosso molho especial e alface fresquinha.</p>
+                        <div class="menu__item-footer">
+                            <span class="menu__item-price">R$ 25,00</span>
+                            <button class="menu__item-button" data-name="Tudão Especial" data-price="25.00" data-img="imagens/tudao-especial.webp" aria-label="Adicionar Tudão Especial ao carrinho por R$25,00">Adicionar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu__item" data-category="combos">
+                    <div class="menu__item-image-wrapper">
+                        <img src="imagens/combo.webp" alt="Combo Tudão com hambúrguer, batata frita e refrigerante" loading="lazy" class="menu__item-image">
+                    </div>
+                    <div class="menu__item-content">
+                        <h3 class="menu__item-title">Combo Tudão</h3>
+                        <p class="menu__item-description">A fome bateu forte? Leve 1 Tudão Especial, 1 porção de fritas douradas e crocantes, mais um refrigerante geladinho à sua escolha. A refeição completa!</p>
+                        <div class="menu__item-footer">
+                            <span class="menu__item-price">R$ 40,00</span>
+                            <button class="menu__item-button" data-name="Combo Tudão" data-price="40.00" data-img="imagens/combo.webp" aria-label="Adicionar Combo Tudão ao carrinho por R$40,00">Adicionar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu__item" data-category="sides">
+                    <div class="menu__item-image-wrapper">
+                        <img src="imagens/batata.webp" alt="Porção generosa de batata frita crocante e dourada" loading="lazy" class="menu__item-image">
+                    </div>
+                    <div class="menu__item-content">
+                        <h3 class="menu__item-title">Batata Frita</h3>
+                        <p class="menu__item-description">Impossível resistir! Batatas selecionadas, crocantes por fora e macias por dentro, com um toque de sal marinho. Perfeita para acompanhar seu burger ou para petiscar.</p>
+                        <div class="menu__item-footer">
+                            <span class="menu__item-price">R$ 12,00</span>
+                            <button class="menu__item-button" data-name="Batata Frita" data-price="12.00" data-img="imagens/batata.webp" aria-label="Adicionar Batata Frita ao carrinho por R$12,00">Adicionar</button>
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+        <section id="testimonials" class="section fade-in" aria-labelledby="testimonials-title">
+            <h2 id="testimonials-title" class="section__title">O que dizem nossos clientes</h2>
+            <div class="testimonials__grid">
+                <article class="testimonial-card">
+                    <div class="testimonial-card__header">
+                         <img src="imagens/avatar-1.webp" alt="Avatar de Ana Clara S." class="testimonial-card__avatar">
+                         <span class="testimonial-card__author">- Ana Clara S.</span>
+                    </div>
+                    <p class="testimonial-card__quote">"O melhor hambúrguer que já comi na vida! O pão é super macio e a carne é muito suculenta. O delivery chegou rapidinho. Virei cliente fiel!"</p>
+                </article>
+                <article class="testimonial-card">
+                    <div class="testimonial-card__header">
+                         <img src="imagens/avatar-2.webp" alt="Avatar de João Pedro M." class="testimonial-card__avatar">
+                         <span class="testimonial-card__author">- João Pedro M.</span>
+                    </div>
+                    <p class="testimonial-card__quote">"Atendimento nota 10 e o Combo Tudão vale muito a pena! Tudo muito bem embalado e quentinho. A batata frita é sensacional, super crocante."</p>
+                </article>
+                <article class="testimonial-card">
+                    <div class="testimonial-card__header">
+                         <img src="imagens/avatar-3.webp" alt="Avatar de Mariana L." class="testimonial-card__avatar">
+                         <span class="testimonial-card__author">- Mariana L.</span>
+                    </div>
+                    <p class="testimonial-card__quote">"Finalmente um hambúrguer artesanal de verdade na cidade. Ingredientes frescos e de qualidade. O molho especial da casa é um segredo que eu queria descobrir!"</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section section--alt fade-in" aria-labelledby="contact-title">
+             <h2 id="contact-title" class="section__title">Peça Agora</h2>
+             <div class="contact__content">
+                 <p>Estamos com a chapa quente, só esperando seu pedido! Adicione seus itens favoritos ao carrinho e finalize seu pedido com um clique no WhatsApp.</p>
+                 <p><strong>Área de Entrega:</strong> Atendemos em toda a cidade de Santa Tereza de Goiás. Consulte a taxa para seu bairro.</p>
+                 <p><strong>Funcionamento:</strong> Todos os dias, das 18:00h às 23:00h.</p>
+                 <p><strong>Local:</strong> Avenida Bernardo Sayão, Centro, Santa Tereza de Goiás - GO.</p>
+             </div>
+        </section>
+    </main>
+
+    <aside class="cart" aria-label="Carrinho de compras">
+        <div class="cart__header">
+            <h3 class="cart__title">Meu Pedido</h3>
+            <button class="cart__close-button" aria-label="Fechar carrinho">&times;</button>
+        </div>
+        <div id="cart-items" class="cart__items"></div>
+        <div class="cart__footer">
+            <div class="cart__total">
+                <span>Total:</span>
+                <span id="cart-total">R$ 0,00</span>
+            </div>
+            <button id="checkout-button" class="cart__checkout-button" disabled>Finalizar Pedido</button>
+        </div>
+    </aside>
+
+    <button class="cart-toggle" aria-label="Abrir carrinho de compras">
+        🛒 <span id="cart-count" class="cart-toggle__count">0</span>
+    </button>
+    
+    <footer class="footer">
+        <div class="footer__content">
+             <div class="footer__section">
+                <h3>Tudão Burguer's</h3>
+                <p>O sabor que te surpreende.</p>
+            </div>
+            <div class="footer__section">
+                <h3>Links Úteis</h3>
+                <ul class="footer__links">
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#menu">Cardápio</a></li>
+                    <li><a href="politica-de-privacidade.html">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3>Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="https://instagram.com/seu_usuario" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Siga-nos no Instagram">
+                        <img src="imagens/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="https://facebook.com/sua_pagina" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Siga-nos no Facebook">
+                        <img src="imagens/facebook.svg" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2025 Tudão Burguer's. Todos os direitos reservados.</p>
+            <p>Desenvolvido por: <a href="https://wa.me/5562991444852" target="_blank" rel="noopener noreferrer">Souza Produções</a>.</p>
+        </div>
+    </footer>
+
+    <!-- MODALS & LIGHTBOX WILL BE INJECTED HERE BY JAVASCRIPT -->
+    
+    <script src="script.js"></script>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => console.log('Service Worker registrado com sucesso:', registration))
+                    .catch(error => console.log('Falha ao registrar Service Worker:', error));
+            });
+        }
+    </script>
+</body>
+</html>
