@@ -1,0 +1,109 @@
+{
+  "name": "Tudão Burguer's - O Melhor Hambúrguer Artesanal",
+  "short_name": "Tudão Burguer's",
+  "description": "O melhor hambúrguer artesanal de Santa Tereza de Goiás. Delivery rápido, ingredientes frescos e sabor incomparável!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfaf6",
+  "theme_color": "#2e7d32",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "categories": ["food", "business", "lifestyle"],
+  "icons": [
+    {
+      "src": "imagens/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "imagens/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "imagens/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "imagens/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "imagens/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "imagens/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tudão Burguer's no mobile"
+    },
+    {
+      "src": "imagens/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tudão Burguer's no desktop"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ver Cardápio",
+      "short_name": "Cardápio",
+      "description": "Veja nosso cardápio completo",
+      "url": "/#menu",
+      "icons": [
+        {
+          "src": "imagens/shortcut-menu.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Fazer Pedido",
+      "short_name": "Pedido",
+      "description": "Faça seu pedido rapidamente",
+      "url": "/#offer",
+      "icons": [
+        {
+          "src": "imagens/shortcut-order.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contato",
+      "short_name": "Contato",
+      "description": "Entre em contato conosco",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "imagens/shortcut-contact.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://souzaproducoes.github.io/Tudao-Burguers/manifest.json"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
